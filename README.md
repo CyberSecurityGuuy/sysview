@@ -50,11 +50,12 @@ Press **`Ctrl + C`** to quit.
 
 ---
 
-### Optional — install as a command
+### Optional — run as a command from anywhere
+
+Add an alias to your shell config:
 
 ```bash
-pip3 install -e .
-sysview
+echo "alias sysview='python3 ~/sysview/sysview/main.py'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 After this you can just type `sysview` anywhere in your terminal.
